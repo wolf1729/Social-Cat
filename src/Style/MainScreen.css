@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.userDetails, .postDetails{
+    width: 100vw;
+}

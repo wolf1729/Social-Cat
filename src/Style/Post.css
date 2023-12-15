@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.individualpostCont{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.postback{
+    width: 520px;
+    height: 400px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.postss{
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+}

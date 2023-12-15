@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.userImageCont{
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.userDataCont{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.userId{
+    font-family: "kanit";
+    font-size: 50px;
+    margin: 0px 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.userProDataCont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.postCont, .viewersCont{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewers, .post{
+    font-family: "kanit";
+    font-size: 20px;
+}
+
+.numPost, .numViewers{
+    font-family: "kanit";
+    font-size: 20px;
+    margin: 0px 50px;
+}
+
+#userfirebaseId{
+    font-family: "kanit";
+    font-size: 10px;
+}

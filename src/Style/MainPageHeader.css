@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    font-family: "kanit";
+}
+
+.headingCont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchInput{
+    margin-left: 300px;
+    width: 400px;
+    height: 20px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.searchButton{
+    background-color: #0a2647;
+    color: white;
+    font-family: "kanit";
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 900;
+    color: #2c7483;
+}
+
+.signoutButton, .triggerButton, .postButton{
+    width: 90px;
+    height: 40px;
+    font-family: "kanit";
+    background-color: #0a2647;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}

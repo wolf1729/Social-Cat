@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.headButtonCont{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.followButton{
+    margin: 10px;
+    width: 90px;
+    height: 40px;
+    background-color: #0a2647;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-family: "kanit";
+}
+
+.backButton{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    background-color: #0a2647;
+    color: white;
+}
